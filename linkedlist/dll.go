@@ -38,6 +38,7 @@ func (l *LinkedList) PrintLl() {
 }
 
 func main() {
+	//make dll
 	l := &LinkedList{}
 	l.InsertAtStart(5)
 	l.InsertAtStart(6)
